@@ -1,3 +1,7 @@
+
+// Layer yang berisi business logic dari aplikasi. Dimana service akan menggunakan repository untuk melakukan interaksi ke database. Buat dalam interface
+
+
 package service
 
 import (
