@@ -5,7 +5,7 @@ package main
 
 import (
 	// User Defined Function
-	"Student-Management-Golang/controller"
+	// "Student-Management-Golang/controller"
 	// "Student-Management-Golang/app"
 	// "Student-Management-Golang/exception"
 	// "Student-Management-Golang/helper"
@@ -17,8 +17,8 @@ import (
 	// "Student-Management-Golang/test"
 	
 	// cv""
-	// "github.com/labstack/echo/v4"
-	// "github.com/labstack/echo/v4/middleware"
+	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 
 	
 	"fmt"
@@ -30,11 +30,15 @@ import (
 	// "sort"
 	// "time"
 	// "reflect"
-	// "net/http"
+	"net/http"
 	// "encoding"
 	// "errors"
 )
 
 func main() {
-	fmt.Println(controller.StudentController())
+	e := echo.New()
+    e.GET("/", func(c echo.Context) error {
+        return c.String(http.StatusOK, "Hello, World!")
+    })
+    e.Logger.Fatal(e.Start(":1323"))
 }
