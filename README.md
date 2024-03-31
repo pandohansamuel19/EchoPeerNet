@@ -1,25 +1,17 @@
-# Back-End Development with Golang Template
+<div align=center>
+    <h1>EchoPeerNet</h1>
+    <p>A Platform Designed to Empower Students through a Decentralized Network</p>
+</div>
 
 
-### Building and running your application
+## Features
 
-When you're ready, start your application by running:
-`docker compose up --build`.
+- **Decentralized Data Storage**: Your educational data wouldn't be held on a single server, but distributed across the network. This increases security and prevents a central authority from controlling your information.
 
-Your application will be available at http://localhost:5000.
+- **Peer-to-Peer Learning**: The dashboard could connect you directly with other students for collaborative learning projects, study groups, or knowledge sharing. You might be able to mentor or be mentored by peers.
 
-### Deploying your application to the cloud
+- **Community-Driven Resources**: Students could contribute and access educational materials like notes, study guides, or practice problems directly through the dashboard. This fosters a collaborative learning environment.
 
-First, build your image, e.g.: `docker build -t myapp .`.
-If your cloud uses a different CPU architecture than your development
-machine (e.g., you are on a Mac M1 and your cloud provider is amd64),
-you'll want to build the image for that platform, e.g.:
-`docker build --platform=linux/amd64 -t myapp .`.
+- **Verification and Reputation**: The P2P network could establish a system where students verify each other's work or contributions, building trust and reputation within the platform.
 
-Then, push it to your registry, e.g. `docker push myregistry.com/myapp`.
-
-Consult Docker's [getting started](https://docs.docker.com/go/get-started-sharing/)
-docs for more detail on building and pushing.
-
-### References
-* [Docker's Go guide](https://docs.docker.com/language/golang/)
+- **Personalized Learning Paths**: By leveraging peer interaction and community resources, students could personalize their learning journeys based on individual needs and strengths.
