@@ -1,4 +1,3 @@
-
 // Tempat inisiasi koneksi database
 
-package app
+package main
