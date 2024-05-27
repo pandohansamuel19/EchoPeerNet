@@ -1,12 +1,8 @@
-
 // Layer yang digunakan untuk mengontrol request ke aksi yang sesuai. BUat dalam interface
 
+package handler
 
-package controller
-
-import (
-	// "fmt"
-)
+// "fmt"
 
 func StudentController() string {
 	return "Hello World!!"
